@@ -31,7 +31,7 @@ a:hover { color: #cc2e5b; text-decoration: none }
 .mod-list { overflow: hidden; }
 .title { margin-bottom: 10px; }
 .list-item { float: left; margin: 0 20px 20px 0; }
-.list-item .pic { position: relative; display: block; width: 200px; height: 200px; border: 1px solid #eee; }
+.list-item .pic { position: relative; display: block; width: 200px; height: 200px; border: 1px solid #eee; background: url(img/loading.gif) center; }
 .list-item img { position: absolute; top: 50%; left: 50%; }
 .list-item .name { display: block; }
 .list-item .price { color: red; }

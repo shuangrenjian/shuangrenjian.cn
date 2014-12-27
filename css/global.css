@@ -30,5 +30,6 @@ a:hover { color: #cc2e5b; text-decoration: none }
 .col-main { padding-left: 20px; overflow: hidden; }
 .mod-list { overflow: hidden; }
 .title { margin-bottom: 10px; }
-.list-item { position: relative; float: left; width: 200px; height: 200px; border: 1px solid #eee; margin: 0 20px 20px 0; }
+.list-item { float: left; margin: 0 20px 20px 0; }
+.list-item .pic { position: relative; width: 200px; height: 200px; border: 1px solid #eee; }
 .list-item img { position: absolute; top: 50%; left: 50%; }

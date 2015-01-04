@@ -30,8 +30,14 @@ a:hover { color: #cc2e5b; text-decoration: none }
 .col-main { padding-left: 20px; overflow: hidden; }
 .mod-list { overflow: hidden; }
 .title { margin-bottom: 10px; }
-.list-item { float: left; width: 50%; }
-.list-item .pic { position: relative; display: block; width: 500px; height: 500px; border: 1px solid #eee; background: url(img/loading.gif) center; }
+.list-item { float: left; width: 50%; margin-bottom: 10px; }
+.list-item .pic { position: relative; display: block; width: 500px; height: 500px; border: 1px solid #eee; background: url(../img/loading.gif) no-repeat center; }
+.list-item .pic { position: relative; display: block; width: 500px; height: 500px; border: 1px solid #eee; background: url(../img/loading.gif) no-repeat center; }
 .list-item img { position: absolute; top: 50%; left: 50%; }
 .list-item .name { display: block; }
 .list-item .price { color: red; }
+.footer { text-align: center;}
+.copyright { padding: 20px;color:#666;}
+.copyright a {color:#666;}
+.footer-info {margin-bottom: 50px;}
+.footer-info img {margin:0 10px;}
